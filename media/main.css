@@ -10,7 +10,10 @@ body {
 
 hey-houston {
   --scale: 2;
-  --size: calc(clamp(4rem, calc(3.75rem + 12.5vw), 13.75rem) * var(--scale));
+  --size: min(
+    80vh,
+    calc(clamp(4rem, calc(3.75rem + 12.5vw), 13.75rem) * var(--scale))
+  );
   --border-width: calc(
     clamp(0.31rem, calc(0.21rem + 0.52vw), 0.63rem) * var(--scale)
   );
