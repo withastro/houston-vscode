@@ -1,5 +1,7 @@
 {
   "name": "houston",
+  "author": "withastro",
+  "license": "MIT",
   "publisher": "astro-build",
   "displayName": "Houston",
   "description": "A theme featuring the cool blues, minty greens, and soft purples.",
