@@ -23,7 +23,11 @@ function updateDiagnostics(provider: HoustonViewProvider): void {
 	const diagnostics = vscode.languages.getDiagnostics();
 	let problems = 0;
 	for (const [doc, collection] of diagnostics) {
-		problems += collection.length;
+		for (const c of collection) {
+			if (c.severity === 0 || c.severity === 1) {
+				problems++;
+			}
+		}
 	}
 
 	if (problems <= 0) {

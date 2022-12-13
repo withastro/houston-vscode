@@ -38,13 +38,13 @@ class HeyHouston extends HTMLElement {
 
   connectedCallback() {
     window.addEventListener("resize", this.onResize);
-    this.addEventListener("pointermove", this.onPointerMove);
+    window.addEventListener("pointermove", this.onPointerMove);
     // this.addEventListener("click", this.onClick);
   }
 
   disconnectedCallback() {
     window.removeEventListener("resize", this.onResize);
-    this.removeEventListener("pointermove", this.onPointerMove);
+    window.removeEventListener("pointermove", this.onPointerMove);
     // this.removeEventListener("click", this.onClick);
   }
 
@@ -76,7 +76,7 @@ class HeyHouston extends HTMLElement {
   }
 
   onResize() {
-    this._rect = this.getBoundingClientRect();
+    this._rect = document.documentElement.getBoundingClientRect();
   }
 
   static get observedAttributes() {
