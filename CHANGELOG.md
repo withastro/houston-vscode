@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.0.7
+
+- Improve Status Bar colors
+
 ## v0.0.6
 
 - Improve Panel theming, borders
