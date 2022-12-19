@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.0.8
+
+- Make badge colors neutral
+
 ## v0.0.7
 
 - Improve Status Bar colors
