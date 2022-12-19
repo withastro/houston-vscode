@@ -1896,7 +1896,7 @@
     "panelTitle.inactiveForeground": "#bfc1c9",
     "panelTitle.activeForeground": "#EEF0F9",
     "panelTitle.activeBorder": "#e7e7e7",
-    "badge.background": "#F4587E",
+    "badge.background": "#BFC1C9",
     "badge.foreground": "#17191E",
     "terminal.foreground": "#cccccc",
     "terminal.selectionBackground": "#ffffff40",
