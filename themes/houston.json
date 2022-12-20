@@ -1803,7 +1803,7 @@
     "listFilterWidget.outline": "#54b9ff",
     "listFilterWidget.noMatchesOutline": "#DC3657",
     "statusBar.foreground": "#eef0f9",
-    "statusBar.background": "#17548B",
+    "statusBar.background": "#17191e",
     "statusBarItem.hoverBackground": "#ffffff1f",
     "statusBar.debuggingBackground": "#875234",
     "statusBar.debuggingForeground": "#eef0f9",
