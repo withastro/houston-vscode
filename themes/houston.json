@@ -2022,6 +2022,6 @@
     "breadcrumb.activeSelectionForeground": "#eef0f9",
     "editorGutter.commentRangeForeground": "#545864",
     "debugExceptionWidget.background": "#23262d",
-    "debugExceptionWidget.border": "#ff54b9"
+    "debugExceptionWidget.border": "#8996d5"
   }
 }
