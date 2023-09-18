@@ -1,5 +1,14 @@
 # Change Log
 
+## v0.1.0
+
+- Improve comment contrast
+- Adjust comment transparency to improve behavior in diff view
+
+## v0.0.9
+
+- Fix error widget colors
+
 ## v0.0.8
 
 - Make badge colors neutral

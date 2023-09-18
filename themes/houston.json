@@ -1645,7 +1645,7 @@
       "name": "comments",
       "scope": ["beginning.punctuation.definition.list.markdown.xi"],
       "settings": {
-        "foreground": "#545864"
+        "foreground": "#eef0f98f"
       }
     },
     {
@@ -1717,14 +1717,14 @@
       "scope": "comment, punctuation.definition.comment",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#545864"
+        "foreground": "#eef0f98f"
       }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown Quote",
       "scope": "markup.quote.markdown",
       "settings": {
-        "foreground": "#545864"
+        "foreground": "#eef0f98f"
       }
     },
     {
