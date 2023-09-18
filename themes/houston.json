@@ -2021,7 +2021,7 @@
     "walkThrough.embeddedEditorBackground": "#00000050",
     "breadcrumb.activeSelectionForeground": "#eef0f9",
     "editorGutter.commentRangeForeground": "#545864",
-    "debugExceptionWidget.background": "#ffffff",
-    "debugExceptionWidget.border": "#ffffff00"
+    "debugExceptionWidget.background": "#23262d",
+    "debugExceptionWidget.border": "#8996d5"
   }
 }
