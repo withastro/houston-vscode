@@ -43,6 +43,7 @@
     "vscode:prepublish": "pnpm run compile",
     "package": "pnpm vsce package --no-dependencies",
     "publish": "pnpm vsce publish --no-dependencies",
+    "version": "pnpm changeset version && pnpm i --no-frozen-lockfile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "pretest": "pnpm run compile && pnpm run lint",
