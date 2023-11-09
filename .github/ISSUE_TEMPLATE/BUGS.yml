@@ -8,6 +8,11 @@ body:
     attributes:
       value: |
         Thank you for reporting your issue! Houston appreciates your assistance. 🚀
+        ```
+        ╭─────╮
+        │ ◠ ◡ ◠
+        ╰─────╯
+        ```
   - type: dropdown
     id: type
     attributes:
