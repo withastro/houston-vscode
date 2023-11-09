@@ -28,6 +28,7 @@ jobs:
       - run: pnpm i
 
       - name: Create Release Pull Request
+        id: changesets
         uses: changesets/action@v1
         with:
           version: pnpm run version
@@ -37,3 +38,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.FREDKBOT_GITHUB_TOKEN }}
           AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
+
+      - name: Publish to OpenVSX
+        if: steps.changesets.outputs.published == 'true'
+        run: npx ovsx publish -p ${{ secrets.OVSX_TOKEN }} --target win32-x64 win32-arm64 linux-x64 linux-arm64 linux-armhf darwin-x64 darwin-arm64 alpine-x64 alpine-arm64
