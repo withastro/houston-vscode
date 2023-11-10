@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.1.2
+
+### Patch Changes
+
+- [#32](https://github.com/withastro/houston-vscode/pull/32) [`e39cb05`](https://github.com/withastro/houston-vscode/commit/e39cb055609ae92a87566bdbd940058420683145) Thanks [@natemoo-re](https://github.com/natemoo-re)! - Optimize preview image
+
 ## 0.1.1
 
 ### Patch Changes
