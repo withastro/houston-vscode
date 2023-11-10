@@ -1,0 +1,43 @@
+name: "🐛 Bug Report"
+description: Report an issue with the extension or possible visual bug.
+labels: [
+  "bug"
+]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ```
+        ╭─────╮
+        │ ◠ ◡ ◠   Thank you for reporting your issue! 
+        ╰─────╯
+        ```
+  - type: input
+    id: location
+    attributes:
+      label: "🔎 Issue Location"
+      description: Please indicate where in the window the issue occurs.
+      placeholder: Scrollbar, editor, menubar, semantic highlighting, etc...
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: "📝 Issue Description"
+      description: Please describe the issue.
+      placeholder: Description of your observation...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "🤔 Expected Behavior"
+      description: Please describe what the expected behavior should be.
+      placeholder: When viewing this part of the editor, I would expect...
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: "📋 Additional Information"
+      description: Please provide any additional information you can provide (images, logs, etc.). Please wrap logs in backticks for readability.
