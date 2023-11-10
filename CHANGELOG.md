@@ -1,5 +1,13 @@
 # Change Log
 
+## 0.1.1
+
+### Patch Changes
+
+- [`a45c346`](https://github.com/withastro/houston-vscode/commit/a45c3463b5b440196ea9bc9cca4a20413682d2c9) Thanks [@delucis](https://github.com/delucis)! - Increase contrast of text highlight and fix visibility of whitespace markers
+
+- [`a45c346`](https://github.com/withastro/houston-vscode/commit/a45c3463b5b440196ea9bc9cca4a20413682d2c9) Thanks [@delucis](https://github.com/delucis)! - Reduce scrollbar opacity to show minimap colours
+
 ## v0.1.0
 
 - Improve comment contrast
