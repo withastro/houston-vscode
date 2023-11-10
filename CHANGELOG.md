@@ -4,9 +4,9 @@
 
 ### Patch Changes
 
-- [`a45c346`](https://github.com/withastro/houston-vscode/commit/a45c3463b5b440196ea9bc9cca4a20413682d2c9) Thanks [@delucis](https://github.com/delucis)! - Increase contrast of text highlight and fix visibility of whitespace markers
+- [#24](https://github.com/withastro/houston-vscode/pull/24) [`a959330`](https://github.com/withastro/houston-vscode/commit/a959330f5bf95e560211806ab61b3d0f9ed4a108) Thanks [@VoxelMC](https://github.com/VoxelMC)! - Increase contrast of text highlight and fix visibility of whitespace markers
 
-- [`a45c346`](https://github.com/withastro/houston-vscode/commit/a45c3463b5b440196ea9bc9cca4a20413682d2c9) Thanks [@delucis](https://github.com/delucis)! - Reduce scrollbar opacity to show minimap colours
+- [#23](https://github.com/withastro/houston-vscode/pull/23) [`d297233`](https://github.com/withastro/houston-vscode/commit/d297233be95e3f8fdecc22e4ffa92bb0e7265592) Thanks [@VoxelMC](https://github.com/VoxelMC)! - Reduce scrollbar opacity to show minimap colours
 
 ## v0.1.0
 
