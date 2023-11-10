@@ -2,7 +2,7 @@
 
 Visual Studio Code theme featuring cool blues, minty greens, and soft purples and [Astro](https://github.com/withastro/astro)'s mascot Houston.
 
-![Preview of Houston Theme](assets/preview.png)
+![Preview of Houston Theme](assets/preview.jpg)
 
 ## Issues
 
