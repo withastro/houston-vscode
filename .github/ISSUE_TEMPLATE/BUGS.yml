@@ -8,8 +8,8 @@ body:
     attributes:
       value: |
         ```
-        ╭─────╮    > Thank you for reporting your issue! 
-        │ ◠ ◡ ◠
+        ╭─────╮
+        │ ◠ ◡ ◠   Thank you for reporting your issue! 
         ╰─────╯
         ```
   - type: input
