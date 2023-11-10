@@ -7,24 +7,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for reporting your issue! Houston appreciates your assistance. 🚀
         ```
-        ╭─────╮
+        ╭─────╮    > Thank you for reporting your issue! 
         │ ◠ ◡ ◠
         ╰─────╯
         ```
-  - type: dropdown
-    id: type
-    attributes:
-      label: "❓ Issue Type"
-      description: Is this a visual issue or a problem with the extension? If `other`, please specify in the description.
-      options:
-        - Visual
-        - Extension
-        - Other
-      default: 0
-    validations:
-      required: true
   - type: input
     id: location
     attributes:
