@@ -6,7 +6,7 @@
   "publisher": "astro-build",
   "displayName": "Houston",
   "description": "A theme featuring cool blues, minty greens, and soft purples",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/withastro/houston-vscode.git"
