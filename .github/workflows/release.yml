@@ -39,9 +39,9 @@ jobs:
           AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
 
       - name: Publish to VS Code
-        if: steps.changesets.outputs.published == 'true'
+        if: steps.changesets.outputs.hasChangesets == 'false'
         run: npx vsce publish --no-dependencies -p ${{ secrets.AZURE_TOKEN }}
 
       - name: Publish to OpenVSX
-        if: steps.changesets.outputs.published == 'true'
+        if: steps.changesets.outputs.hasChangesets == 'false'
         run: npx ovsx publish --no-dependencies -p ${{ secrets.OVSX_TOKEN }}
