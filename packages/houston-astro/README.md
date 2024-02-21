@@ -2,6 +2,9 @@
 
 The same cool blues, minty greens, and soft purples your used to on Visual Studio, but now packaged for ExpressiveCode's Astro package and Astro's Shiki!
 
+Example of Houston on a starlight site
+![Preview of Houston CodeBlocks](./packages/houston-astro/assets/Houston-astro.PNG)
+
 ## Install
 
 ```
