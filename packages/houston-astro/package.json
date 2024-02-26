@@ -17,8 +17,9 @@
     "houston",
     "theme"
   ],
-  "main": "./houston.json",
-  "exports": "./houston.json",
+  "exports": {
+    "./dark": "./houston-dark.json"
+  },
   "files": [
     "package.json",
     "houston.json",

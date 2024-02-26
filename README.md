@@ -8,14 +8,6 @@ Visual Studio Code theme featuring cool blues, minty greens, and soft purples an
 
 ![Preview of Houston Theme (VS-Code)](./packages/houston-vscode/assets/preview.jpg)
 
-## GitClients
-
-### [`GitKraken`](./packages/houston-gitkraken/README.md)
-
-GitKraken theme generated completely from the Houston Color Pallet to bring all of the lovely colors into your Git Management!
-
-![Preview of GitKraken Houston](./packages/houston-gitkraken/assets/houston1.png)
-
 ## FrontEnd
 
 ### [`Astro / Expressive Code`](./packages/houston-astro/README.md)
