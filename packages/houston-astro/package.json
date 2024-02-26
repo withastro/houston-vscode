@@ -1,0 +1,28 @@
+{
+  "name": "@astrojs/houston-theme",
+  "author": "withastro",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "A theme featuring cool blues, minty greens, and soft purples",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/withastro/houston-vscode.git"
+  },
+  "keywords": [
+    "astro",
+    "withastro",
+    "houston",
+    "theme"
+  ],
+  "exports": {
+    "./dark": "./houston-dark.json"
+  },
+  "files": [
+    "package.json",
+    "houston.json",
+    "README.md"
+  ]
+}
