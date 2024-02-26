@@ -1,5 +1,5 @@
 {
-  "name": "houston-astro",
+  "name": "@astrojs/houston-theme",
   "author": "withastro",
   "license": "MIT",
   "publishConfig": {
