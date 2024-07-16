@@ -1,0 +1,7 @@
+id = "astro-build.houston"
+name = "Houston"
+version = "0.0.1"
+schema_version = 1
+authors = ["withastro"]
+description = "A Zed theme featuring cool blues, minty greens, and soft purples"
+repository = "https://github.com/withastro/"
