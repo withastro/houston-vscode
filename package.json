@@ -32,6 +32,11 @@
         "label": "Houston",
         "uiTheme": "vs-dark",
         "path": "./themes/zed/houston.json"
+      },
+      {
+        "label": "Houston-nvim",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nvim/houston.lua"
       }
     ],
     "views": {
